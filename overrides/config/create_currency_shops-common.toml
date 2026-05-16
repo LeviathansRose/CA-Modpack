@@ -1,4 +1,0 @@
-#Allow placing coins into coin piles
-allowCoinPilePlacement = true
-#Enable the Coin Drafter block
-enableCoinDrafter = true

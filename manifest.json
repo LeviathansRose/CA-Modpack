@@ -12,7 +12,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "CA Modpack",
-  "version": "1.0",
+  "version": "1.1",
   "author": "",
   "files": [
     {
@@ -803,7 +803,7 @@
     },
     {
       "projectID": 551586,
-      "fileID": 8095590,
+      "fileID": 7908490,
       "required": true,
       "isLocked": false
     },

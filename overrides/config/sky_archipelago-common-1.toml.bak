@@ -49,13 +49,13 @@ largeIslandMaxRadius = 75
 # Default: 0.33
 # Range: 0.0 ~ 1.0
 largeIslandWeight = 0.33
-#Minimum Y for island centers. Values above 320 require world-height expansion mods/settings.
+#Minimum Y for island centers.
 # Default: 20
-# Range: -32 ~ 2000
+# Range: -32 ~ 320
 minIslandY = 20
-#Maximum Y for island centers. Values above 320 require world-height expansion mods/settings.
+#Maximum Y for island centers.
 # Default: 170
-# Range: -16 ~ 2000
+# Range: -16 ~ 320
 maxIslandY = 170
 #Relative weight of the uncommon low-island height band.
 # Default: 0.15
@@ -122,9 +122,9 @@ terraceArchetypeEnabled = true
 terraceArchetypeWeight = 1.0
 #Whether to fill an optional ocean layer below the sky islands.
 oceanEnabled = false
-#Maximum Y level filled by the optional ocean layer when ocean generation is enabled. Values above 320 require world-height expansion mods/settings.
+#Maximum Y level filled by the optional ocean layer when ocean generation is enabled.
 # Default: 0
-# Range: -64 ~ 2000
+# Range: -64 ~ 320
 oceanLevelY = 0
 #Whether to shape an ocean floor beneath the ocean surface using deterministic noise.
 oceanFloorNoiseEnabled = true
@@ -148,7 +148,8 @@ oceanFloorMinDepth = 8
 # Default: 40
 # Range: 1 ~ 128
 oceanFloorMaxDepth = 40
-#Fluid block used by the optional ocean layer. Accepted values: water, lava.
+#Fluid block used by the optional ocean layer.
+#Allowed Values: WATER, LAVA
 oceanBlockType = "WATER"
 #How far below a structure footprint to scan for support.
 # Default: 48
@@ -215,7 +216,7 @@ smallSkyLocalSearchStepBlocks = 4
 # Range: 0 ~ 96
 surfaceSkyLocalSearchRadiusBlocks = 24
 #Maximum local offset radius in blocks tested across an island top for smaller sky structures.
-# Default: 14
+# Default: 20
 # Range: 0 ~ 96
 smallSkyLocalSearchRadiusBlocks = 20
 #Required grounded-base sample ratio for larger sky-surface structures after relocation.
@@ -258,9 +259,9 @@ customStructureRulesEnabled = true
 clusterCompanionIslandsEnabled = true
 #Whether anchor islands use extra fragmentation features that create small outcroppings/debris.
 anchorFragmentationEnabled = true
-#Island interior below or at this Y uses deepslate substrate. Values above 320 require world-height expansion mods/settings.
+#Island interior below or at this Y uses deepslate substrate.
 # Default: 16
-# Range: -64 ~ 2000
+# Range: -64 ~ 320
 deepslateStartY = 16
 #Whether strongholds can retry placement by injecting a temporary host island after initial support failure.
 strongholdHostIslandEnabled = true
@@ -283,26 +284,5 @@ skyStructureWhitelist = ["shellbound_for_airship:airship_ship1", "shellbound_for
 #Leave empty by default so future special handling can still be added later.
 skyStructureDenylist = []
 #Optional per-structure placement categories in the form modid:structure=CATEGORY.
-#Preferred categories: DEFAULT, SKY, SMALL_GROUND, MEDIUM_GROUND, LARGE_GROUND, UNDERGROUND, WATER.
-#Legacy aliases still supported: SMALL_SKY, SURFACE_SKY, HAMLET_SKY.
+#Supported categories: DEFAULT, SURFACE_SKY, SMALL_SKY, HAMLET_SKY, DEFERRED.
 skyStructureCategoryOverrides = ["minecraft:pillager_outpost=SURFACE_SKY", "minecraft:ruined_portal_desert=SMALL_SKY", "valhelsia_structures:desert_house=SMALL_SKY", "repurposed_structures:outpost_oak=SURFACE_SKY", "valhelsia_structures:player_house=SMALL_SKY", "valhelsia_structures:forge=SMALL_SKY", "valhelsia_structures:tower_ruin=SMALL_SKY", "valhelsia_structures:big_tree=SMALL_SKY", "mostructures:villager_tower=SURFACE_SKY", "mostructures:villager_market=SURFACE_SKY", "sky_archipelago:sky_hamlet_plains=HAMLET_SKY", "sky_archipelago:sky_hamlet_desert=HAMLET_SKY", "sky_archipelago:sky_hamlet_savanna=HAMLET_SKY", "sky_archipelago:sky_hamlet_snowy=HAMLET_SKY", "sky_archipelago:sky_hamlet_taiga=HAMLET_SKY"]
-#Maximum vertical island thickness in blocks. Prevents giant islands from becoming too tall/deep.
-# Default: 140
-# Range: 24 ~ 1024
-maxIslandThicknessBlocks = 140
-#Whether island clusters should be skipped when sampled biome is ocean.
-disableIslandsOverOceanBiomes = false
-#Whether river/beach terrain profiles blend into neighboring non-river/beach profiles.
-biomeProfileBlendingEnabled = true
-#Neighborhood sample radius in blocks used by biome profile blending.
-# Default: 4
-# Range: 1 ~ 16
-biomeProfileBlendingRadiusBlocks = 4
-#Blend quantization steps. Higher values are smoother but slightly more variant.
-# Default: 8
-# Range: 2 ~ 64
-biomeProfileBlendingQuantizationSteps = 8
-#If true, extra blending samples run only near river/beach boundaries.
-biomeProfileBlendingBoundaryOnly = true
-#Case-insensitive path tokens used to infer SKY category for floating structures when no explicit override is present.
-skyStructureCategoryTokens = ["sky", "airship", "floating", "cloud", "aerial"]

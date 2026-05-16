@@ -1,0 +1,12 @@
+type = slideshow
+
+slideshow-meta {
+   name = slides
+   width = 2560
+   height = 1440
+   x = 0
+   y = 0
+   duration = 25.0
+   fadespeed = 2
+   randomize = false
+}

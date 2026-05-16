@@ -1,0 +1,26 @@
+{
+	"values": [
+		"natures_spirit:alpine_clearings",
+		"natures_spirit:alpine_highlands",
+		"natures_spirit:sleeted_slopes",
+		"natures_spirit:tundra",
+
+		"minecraft:frozen_peaks",
+		"minecraft:ice_spikes",
+		"minecraft:jagged_peaks",
+		"minecraft:snowy_plains",
+		"minecraft:snowy_slopes",
+		"minecraft:snowy_taiga",
+		"minecraft:stony_peaks",
+		"minecraft:windswept_hills",
+
+		"terralith:alpine_highlands",
+		"terralith:emerald_peaks",
+		"terralith:frozen_cliffs",
+		"terralith:glacial_chasm",
+		"terralith:ice_marsh",
+		"terralith:rocky_mountains",
+		"terralith:snowy_badlands",
+		"terralith:windswept_spires"
+	]
+}

@@ -1,0 +1,17 @@
+{
+	"values": [
+		"galosphere:crystal_canyons",
+		"galosphere:lichen_caves",
+		"galosphere:pink_salt_caves",
+
+		"terralith:cave/fungal_caves",
+		"terralith:cave/thermal_caves",
+		"terralith:cave/mantle_caves",
+
+		"quark:glimmering_weald",
+
+		"minecraft:deep_dark",
+		"minecraft:dripstone_caves",
+		"minecraft:lush_caves"
+	]
+}

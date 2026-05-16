@@ -1,0 +1,8 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "minecraft:dripstone_caves",
+  "features": [
+	"aeroscapes:ores/ore_bedrock"
+  ],
+  "step": "underground_ores"
+}

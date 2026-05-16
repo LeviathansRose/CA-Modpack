@@ -1,0 +1,9 @@
+{
+	"values": [
+		"#aeroscapes:modifiers/presets/cold",
+		"#aeroscapes:modifiers/presets/plains",
+		"#aeroscapes:modifiers/presets/temperate",
+		"#aeroscapes:modifiers/presets/lush",
+		"#aeroscapes:modifiers/presets/savanna"
+	]
+}

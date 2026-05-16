@@ -1,0 +1,1291 @@
+{
+  "config_version": "2.0.22",
+  "config_datetime": "2026-05-10_17-24-44",
+  "general": {
+    "disable_all_structures": false,
+    "prevent_structure_overlap": true,
+    "enable_global_spacing_and_separation_modifier": false,
+    "global_spacing_and_separation_modifier": 1.0
+  },
+  "structure_namespaces": [
+    {
+      "name": "global",
+      "is_disabled": false,
+      "override_global_biome_check": false,
+      "enable_biome_check": true,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#aeroscapes:modifiers/presets/void"
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "name": "minecraft:pillager_outpost",
+      "is_disabled": false,
+      "whitelisted_biomes": [
+        "#aeroscapes:modifiers/presets/void"
+      ],
+      "blacklisted_biomes": [
+        "minecraft:desert",
+        "minecraft:plains",
+        "minecraft:savanna",
+        "minecraft:snowy_plains",
+        "minecraft:taiga",
+        "minecraft:meadow",
+        "minecraft:frozen_peaks",
+        "minecraft:jagged_peaks",
+        "minecraft:stony_peaks",
+        "minecraft:snowy_slopes",
+        "minecraft:cherry_grove",
+        "natures_spirit:alpine_highlands",
+        "natures_spirit:red_peaks",
+        "natures_spirit:snowcapped_red_peaks",
+        "natures_spirit:dusty_slopes",
+        "natures_spirit:sleeted_slopes",
+        "natures_spirit:blooming_highlands",
+        "terralith:emerald_peaks",
+        "terralith:painted_mountains",
+        "terralith:rocky_mountains",
+        "terralith:scarlet_mountains",
+        "terralith:volcanic_peaks",
+        "terralith:alpine_grove",
+        "terralith:ashen_savanna",
+        "terralith:caldera",
+        "terralith:savanna_slopes",
+        "terralith:siberian_grove",
+        "terralith:snowy_maple_forest",
+        "terralith:snowy_shield",
+        "terralith:tropical_jungle",
+        "terralith:volcanic_crater",
+        "minecraft:grove",
+        "terralith:birch_taiga",
+        "terralith:blooming_valley",
+        "terralith:cloud_forest",
+        "terralith:lavender_forest",
+        "terralith:lavender_valley",
+        "terralith:moonlight_grove",
+        "terralith:moonlight_valley",
+        "terralith:sakura_grove",
+        "terralith:sakura_valley",
+        "terralith:snowy_cherry_grove",
+        "terralith:temperate_highlands",
+        "terralith:yosemite_lowlands",
+        "terralith:forested_highlands",
+        "terralith:shield",
+        "terralith:siberian_taiga",
+        "terralith:wintry_forest",
+        "terralith:wintry_lowlands"
+      ],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_thin"
+    },
+    {
+      "name": "minecraft:shipwreck",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "none"
+    },
+    {
+      "name": "minecraft:trial_chambers",
+      "is_disabled": false,
+      "whitelisted_biomes": [
+        "aeroscapes:deep_voidsea"
+      ],
+      "blacklisted_biomes": [
+        "minecraft:mushroom_fields",
+        "minecraft:deep_frozen_ocean",
+        "minecraft:frozen_ocean",
+        "minecraft:deep_cold_ocean",
+        "minecraft:cold_ocean",
+        "minecraft:deep_ocean",
+        "minecraft:ocean",
+        "minecraft:deep_lukewarm_ocean",
+        "minecraft:lukewarm_ocean",
+        "minecraft:warm_ocean",
+        "minecraft:stony_shore",
+        "minecraft:swamp",
+        "minecraft:mangrove_swamp",
+        "minecraft:snowy_slopes",
+        "minecraft:snowy_plains",
+        "minecraft:snowy_beach",
+        "minecraft:windswept_gravelly_hills",
+        "minecraft:grove",
+        "minecraft:windswept_hills",
+        "minecraft:snowy_taiga",
+        "minecraft:windswept_forest",
+        "minecraft:taiga",
+        "minecraft:plains",
+        "minecraft:meadow",
+        "minecraft:beach",
+        "minecraft:forest",
+        "minecraft:old_growth_spruce_taiga",
+        "minecraft:flower_forest",
+        "minecraft:birch_forest",
+        "minecraft:dark_forest",
+        "minecraft:savanna_plateau",
+        "minecraft:savanna",
+        "minecraft:jungle",
+        "minecraft:badlands",
+        "minecraft:desert",
+        "minecraft:wooded_badlands",
+        "minecraft:jagged_peaks",
+        "minecraft:stony_peaks",
+        "minecraft:frozen_river",
+        "minecraft:river",
+        "minecraft:ice_spikes",
+        "minecraft:old_growth_pine_taiga",
+        "minecraft:sunflower_plains",
+        "minecraft:old_growth_birch_forest",
+        "minecraft:sparse_jungle",
+        "minecraft:bamboo_jungle",
+        "minecraft:eroded_badlands",
+        "minecraft:windswept_savanna",
+        "minecraft:cherry_grove",
+        "minecraft:frozen_peaks",
+        "minecraft:dripstone_caves",
+        "minecraft:lush_caves",
+        "terralith:cave/andesite_caves",
+        "terralith:cave/deep_caves",
+        "terralith:cave/diorite_caves",
+        "terralith:cave/fungal_caves",
+        "terralith:cave/granite_caves",
+        "terralith:cave/infested_caves",
+        "terralith:cave/mantle_caves",
+        "terralith:cave/thermal_caves",
+        "terralith:cave/tuff_caves",
+        "terralith:cave/underground_jungle",
+        "terralith:alpha_islands",
+        "terralith:alpha_islands_winter",
+        "terralith:alpine_grove",
+        "terralith:alpine_highlands",
+        "terralith:amethyst_canyon",
+        "terralith:amethyst_rainforest",
+        "terralith:ancient_sands",
+        "terralith:arid_highlands",
+        "terralith:ashen_savanna",
+        "terralith:basalt_cliffs",
+        "terralith:birch_taiga",
+        "terralith:blooming_plateau",
+        "terralith:blooming_valley",
+        "terralith:brushland",
+        "terralith:bryce_canyon",
+        "terralith:caldera",
+        "terralith:cloud_forest",
+        "terralith:cold_shrubland",
+        "terralith:desert_canyon",
+        "terralith:desert_oasis",
+        "terralith:desert_spires",
+        "terralith:emerald_peaks",
+        "terralith:forested_highlands",
+        "terralith:fractured_savanna",
+        "terralith:frozen_cliffs",
+        "terralith:glacial_chasm",
+        "terralith:granite_cliffs",
+        "terralith:gravel_beach",
+        "terralith:gravel_desert",
+        "terralith:haze_mountain",
+        "terralith:highlands",
+        "terralith:hot_shrubland",
+        "terralith:ice_marsh",
+        "terralith:jungle_mountains",
+        "terralith:lavender_forest",
+        "terralith:lavender_valley",
+        "terralith:lush_desert",
+        "terralith:lush_valley",
+        "terralith:mirage_isles",
+        "terralith:moonlight_grove",
+        "terralith:moonlight_valley",
+        "terralith:orchid_swamp",
+        "terralith:painted_mountains",
+        "terralith:red_oasis",
+        "terralith:rocky_jungle",
+        "terralith:rocky_mountains",
+        "terralith:rocky_shrubland",
+        "terralith:sakura_grove",
+        "terralith:sakura_valley",
+        "terralith:sandstone_valley",
+        "terralith:savanna_badlands",
+        "terralith:savanna_slopes",
+        "terralith:scarlet_mountains",
+        "terralith:shield",
+        "terralith:shield_clearing",
+        "terralith:shrubland",
+        "terralith:siberian_grove",
+        "terralith:siberian_taiga",
+        "terralith:skylands_autumn",
+        "terralith:skylands_spring",
+        "terralith:skylands_summer",
+        "terralith:skylands_winter",
+        "terralith:snowy_badlands",
+        "terralith:snowy_cherry_grove",
+        "terralith:snowy_maple_forest",
+        "terralith:snowy_shield",
+        "terralith:steppe",
+        "terralith:stony_spires",
+        "terralith:temperate_highlands",
+        "terralith:tropical_jungle",
+        "terralith:valley_clearing",
+        "terralith:volcanic_crater",
+        "terralith:volcanic_peaks",
+        "terralith:warm_river",
+        "terralith:warped_mesa",
+        "terralith:white_cliffs",
+        "terralith:white_mesa",
+        "terralith:windswept_spires",
+        "terralith:wintry_forest",
+        "terralith:wintry_lowlands",
+        "terralith:yellowstone",
+        "terralith:yosemite_cliffs",
+        "terralith:yosemite_lowlands"
+      ],
+      "step": "underground_structures",
+      "terrain_adaptation": "encapsulate"
+    },
+    {
+      "name": "minecraft:village_desert",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_thin"
+    },
+    {
+      "name": "minecraft:village_plains",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_thin"
+    },
+    {
+      "name": "minecraft:village_savanna",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_thin"
+    },
+    {
+      "name": "minecraft:village_snowy",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_thin"
+    },
+    {
+      "name": "minecraft:village_taiga",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_thin"
+    },
+    {
+      "name": "ctov:large/village_beach",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_thin"
+    },
+    {
+      "name": "ctov:large/village_christmas",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_thin"
+    },
+    {
+      "name": "ctov:large/village_underground",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_thin"
+    },
+    {
+      "name": "ctov:medium/village_beach",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_thin"
+    },
+    {
+      "name": "ctov:medium/village_christmas",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_thin"
+    },
+    {
+      "name": "ctov:medium/village_underground",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_thin"
+    },
+    {
+      "name": "ctov:pillager_outpost_beach",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_thin"
+    },
+    {
+      "name": "ctov:pillager_outpost_desert",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_thin"
+    },
+    {
+      "name": "ctov:pillager_outpost_jungle",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_thin"
+    },
+    {
+      "name": "ctov:pillager_outpost_mesa",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_thin"
+    },
+    {
+      "name": "ctov:pillager_outpost_plains",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_thin"
+    },
+    {
+      "name": "ctov:pillager_outpost_savanna",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_thin"
+    },
+    {
+      "name": "ctov:pillager_outpost_swamp",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_thin"
+    },
+    {
+      "name": "ctov:small/village_beach",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_thin"
+    },
+    {
+      "name": "ctov:small/village_christmas",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_thin"
+    },
+    {
+      "name": "ctov:small/village_underground",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_thin"
+    },
+    {
+      "name": "galosphere:forgotten_ruins",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "underground_structures",
+      "terrain_adaptation": "beard_box"
+    },
+    {
+      "name": "galosphere:pink_salt_shrine",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "underground_structures",
+      "terrain_adaptation": "beard_box"
+    },
+    {
+      "name": "natures_spirit:village_adobe",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_box"
+    },
+    {
+      "name": "natures_spirit:village_coconut",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_thin"
+    },
+    {
+      "name": "natures_spirit:village_cypress",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_thin"
+    },
+    {
+      "name": "natures_spirit:village_wisteria",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_thin"
+    },
+    {
+      "name": "nova_structures:badlands_miner_outpost",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_box"
+    },
+    {
+      "name": "nova_structures:bunker",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "none"
+    },
+    {
+      "name": "nova_structures:conduit_ruin",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "none"
+    },
+    {
+      "name": "nova_structures:creeping_crypt",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "none"
+    },
+    {
+      "name": "nova_structures:deepslate_camp",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "underground_structures",
+      "terrain_adaptation": "none"
+    },
+    {
+      "name": "nova_structures:desert_ruins",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_box"
+    },
+    {
+      "name": "nova_structures:end_castle",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "none"
+    },
+    {
+      "name": "nova_structures:end_lighthouse",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "none"
+    },
+    {
+      "name": "nova_structures:end_ship",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "none"
+    },
+    {
+      "name": "nova_structures:firewatch_tower_birch",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_box"
+    },
+    {
+      "name": "nova_structures:firewatch_tower_cherry",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_box"
+    },
+    {
+      "name": "nova_structures:firewatch_tower_dark_oak",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_box"
+    },
+    {
+      "name": "nova_structures:firewatch_tower_forest",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_box"
+    },
+    {
+      "name": "nova_structures:firewatch_tower_jungle",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_box"
+    },
+    {
+      "name": "nova_structures:firewatch_tower_mangrove",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_box"
+    },
+    {
+      "name": "nova_structures:firewatch_tower_savanna",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_box"
+    },
+    {
+      "name": "nova_structures:firewatch_tower_swamp",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_box"
+    },
+    {
+      "name": "nova_structures:firewatch_tower_taiga",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_box"
+    },
+    {
+      "name": "nova_structures:hamlet",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_box"
+    },
+    {
+      "name": "nova_structures:illager_camp",
+      "is_disabled": false,
+      "whitelisted_biomes": [
+        "#aeroscapes:modifiers/presets/void"
+      ],
+      "blacklisted_biomes": [
+        "minecraft:beach",
+        "minecraft:snowy_beach",
+        "natures_spirit:tropical_shores",
+        "terralith:gravel_beach",
+        "minecraft:frozen_river",
+        "terralith:warm_river",
+        "minecraft:taiga",
+        "minecraft:snowy_taiga",
+        "minecraft:old_growth_pine_taiga",
+        "minecraft:old_growth_spruce_taiga",
+        "terralith:alpine_grove",
+        "terralith:birch_taiga",
+        "terralith:forested_highlands",
+        "terralith:shield",
+        "terralith:siberian_grove",
+        "terralith:siberian_taiga",
+        "terralith:snowy_maple_forest",
+        "terralith:snowy_shield",
+        "terralith:wintry_forest",
+        "terralith:wintry_lowlands",
+        "minecraft:forest",
+        "minecraft:flower_forest",
+        "minecraft:birch_forest",
+        "minecraft:old_growth_birch_forest",
+        "minecraft:dark_forest",
+        "minecraft:grove",
+        "natures_spirit:coniferous_covert",
+        "natures_spirit:aspen_forest",
+        "natures_spirit:blooming_sugi_forest",
+        "natures_spirit:maple_woodlands",
+        "natures_spirit:redwood_forest",
+        "natures_spirit:sugi_forest",
+        "natures_spirit:windswept_sugi_forest",
+        "natures_spirit:wisteria_forest",
+        "natures_spirit:floral_ridges",
+        "natures_spirit:fir_forest",
+        "terralith:blooming_valley",
+        "terralith:cloud_forest",
+        "terralith:lavender_forest",
+        "terralith:lavender_valley",
+        "terralith:moonlight_grove",
+        "terralith:moonlight_valley",
+        "terralith:sakura_grove",
+        "terralith:sakura_valley",
+        "terralith:snowy_cherry_grove",
+        "terralith:temperate_highlands",
+        "terralith:yosemite_lowlands",
+        "minecraft:badlands",
+        "minecraft:eroded_badlands",
+        "minecraft:wooded_badlands",
+        "terralith:bryce_canyon",
+        "terralith:painted_mountains",
+        "terralith:red_oasis",
+        "terralith:savanna_badlands",
+        "terralith:white_mesa",
+        "terralith:snowy_badlands",
+        "minecraft:windswept_hills",
+        "minecraft:windswept_forest",
+        "minecraft:windswept_gravelly_hills",
+        "terralith:fractured_savanna",
+        "terralith:haze_mountain",
+        "terralith:stony_spires",
+        "terralith:windswept_spires",
+        "minecraft:bamboo_jungle",
+        "minecraft:jungle",
+        "minecraft:sparse_jungle",
+        "natures_spirit:bamboo_wetlands",
+        "terralith:amethyst_canyon",
+        "terralith:amethyst_rainforest",
+        "terralith:jungle_mountains",
+        "terralith:rocky_jungle",
+        "terralith:tropical_jungle",
+        "minecraft:savanna",
+        "minecraft:savanna_plateau",
+        "minecraft:windswept_savanna",
+        "natures_spirit:arid_savanna",
+        "terralith:arid_highlands",
+        "terralith:ashen_savanna",
+        "terralith:savanna_slopes",
+        "minecraft:mushroom_fields",
+        "minecraft:ice_spikes",
+        "minecraft:dripstone_caves",
+        "minecraft:lush_caves",
+        "minecraft:snowy_plains",
+        "minecraft:plains",
+        "minecraft:sunflower_plains",
+        "minecraft:desert"
+      ],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_thin"
+    },
+    {
+      "name": "nova_structures:illager_hideout",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "underground_structures",
+      "terrain_adaptation": "encapsulate"
+    },
+    {
+      "name": "nova_structures:illager_manor",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "none"
+    },
+    {
+      "name": "nova_structures:jungle_ruins",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_box"
+    },
+    {
+      "name": "nova_structures:lone_citadel",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "underground_decoration",
+      "terrain_adaptation": "none"
+    },
+    {
+      "name": "nova_structures:mangrove_witch_hut",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_box"
+    },
+    {
+      "name": "nova_structures:nether_keep",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "underground_decoration",
+      "terrain_adaptation": "none"
+    },
+    {
+      "name": "nova_structures:nether_port",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "underground_decoration",
+      "terrain_adaptation": "beard_box"
+    },
+    {
+      "name": "nova_structures:nether_skeleton_tower_crimson",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_box"
+    },
+    {
+      "name": "nova_structures:nether_skeleton_tower_soul",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_box"
+    },
+    {
+      "name": "nova_structures:nether_skeleton_tower_warped",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_box"
+    },
+    {
+      "name": "nova_structures:nether_skeleton_tower_waste",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_box"
+    },
+    {
+      "name": "nova_structures:piglin_camp",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_box"
+    },
+    {
+      "name": "nova_structures:piglin_donjon",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "underground_decoration",
+      "terrain_adaptation": "none"
+    },
+    {
+      "name": "nova_structures:piglin_outstation",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_box"
+    },
+    {
+      "name": "nova_structures:remnant_birch_graveyard",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_box"
+    },
+    {
+      "name": "nova_structures:remnant_bridge_remnant",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_box"
+    },
+    {
+      "name": "nova_structures:remnant_bunny_base",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_box"
+    },
+    {
+      "name": "nova_structures:remnant_classic_village",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_thin"
+    },
+    {
+      "name": "nova_structures:remnant_desert_remnant",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_box"
+    },
+    {
+      "name": "nova_structures:remnant_ominous_shop",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_box"
+    },
+    {
+      "name": "nova_structures:ruin_town",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_box"
+    },
+    {
+      "name": "nova_structures:shrine_combat_tier_1",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "none"
+    },
+    {
+      "name": "nova_structures:shrine_combat_tier_2",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "none"
+    },
+    {
+      "name": "nova_structures:shrine_combat_tier_3",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "none"
+    },
+    {
+      "name": "nova_structures:shrine_combat_tier_4",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "none"
+    },
+    {
+      "name": "nova_structures:shrine_combat_tier_5",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "none"
+    },
+    {
+      "name": "nova_structures:shrine_tower",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "none"
+    },
+    {
+      "name": "nova_structures:skeleton_camp_crimson",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_box"
+    },
+    {
+      "name": "nova_structures:skeleton_camp_soul",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_box"
+    },
+    {
+      "name": "nova_structures:skeleton_camp_warped",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_box"
+    },
+    {
+      "name": "nova_structures:skeleton_camp_waste",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_box"
+    },
+    {
+      "name": "nova_structures:stray_fort",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_box"
+    },
+    {
+      "name": "nova_structures:toxic_lair",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "underground_decoration",
+      "terrain_adaptation": "none"
+    },
+    {
+      "name": "nova_structures:trident_trial_monument",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "underground_decoration",
+      "terrain_adaptation": "none"
+    },
+    {
+      "name": "nova_structures:undead_crypt",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "underground_structures",
+      "terrain_adaptation": "encapsulate"
+    },
+    {
+      "name": "nova_structures:underground_house",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "underground_structures",
+      "terrain_adaptation": "none"
+    },
+    {
+      "name": "nova_structures:village_birch",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_thin"
+    },
+    {
+      "name": "nova_structures:village_jungle",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_thin"
+    },
+    {
+      "name": "nova_structures:village_swamp",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_thin"
+    },
+    {
+      "name": "nova_structures:well_birch",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_box"
+    },
+    {
+      "name": "nova_structures:well_dark_oak",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_box"
+    },
+    {
+      "name": "nova_structures:well_jungle",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_box"
+    },
+    {
+      "name": "nova_structures:well_oak",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_box"
+    },
+    {
+      "name": "nova_structures:well_savana",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_box"
+    },
+    {
+      "name": "nova_structures:well_spruce",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_box"
+    },
+    {
+      "name": "nova_structures:witch_villa",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_box"
+    },
+    {
+      "name": "philipsruins:ancient_dungeon",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "underground_structures",
+      "terrain_adaptation": "bury"
+    },
+    {
+      "name": "philipsruins:lost_soul_city",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "underground_structures",
+      "terrain_adaptation": "beard_thin"
+    },
+    {
+      "name": "philipsruins:ocean_fortress",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_box"
+    },
+    {
+      "name": "philipsruins:ocean_ruins",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_thin"
+    },
+    {
+      "name": "philipsruins:pumpkin_ruins",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_thin"
+    },
+    {
+      "name": "philipsruins:underground_structures",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "underground_structures",
+      "terrain_adaptation": "beard_thin"
+    },
+    {
+      "name": "supplementaries:galleon",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "none"
+    },
+    {
+      "name": "terralith:fortified_desert_village",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_thin"
+    },
+    {
+      "name": "terralith:fortified_village",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_thin"
+    },
+    {
+      "name": "terralith:glacial_hut",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_thin"
+    },
+    {
+      "name": "terralith:mage_complex",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_thin"
+    },
+    {
+      "name": "terralith:mage_tower",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_thin"
+    },
+    {
+      "name": "terralith:mage_tower_autumn",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "fluid_springs",
+      "terrain_adaptation": "beard_thin"
+    },
+    {
+      "name": "terralith:mage_tower_spring",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "fluid_springs",
+      "terrain_adaptation": "beard_thin"
+    },
+    {
+      "name": "terralith:mage_tower_summer",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "fluid_springs",
+      "terrain_adaptation": "beard_thin"
+    },
+    {
+      "name": "terralith:mage_tower_winter",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "fluid_springs",
+      "terrain_adaptation": "beard_thin"
+    },
+    {
+      "name": "terralith:underground/frosted_dungeon",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_box"
+    },
+    {
+      "name": "terralith:underground/giant_bee_hive",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "bury"
+    },
+    {
+      "name": "terralith:underground/mining_outpost",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_box"
+    },
+    {
+      "name": "terralith:underground/oak_cabin",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_box"
+    },
+    {
+      "name": "terralith:underground/old_refinery",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_box"
+    },
+    {
+      "name": "terralith:underground/sunken_tower",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_box"
+    },
+    {
+      "name": "terralith:underground/witch_hut",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_thin"
+    },
+    {
+      "name": "terralith:underground_cabin",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_box"
+    },
+    {
+      "name": "terralith:valley_lodge",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_thin"
+    },
+    {
+      "name": "terralith:witch_hut",
+      "is_disabled": true,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_thin"
+    }
+  ],
+  "structure_sets": []
+}

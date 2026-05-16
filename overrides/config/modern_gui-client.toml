@@ -1,0 +1,5 @@
+#Bias applied after automatic UI scale: effectiveScale = autoScale * (1 + value).
+#Snapped to 0.1 steps, clamped to [-0.5, 0.5]. Affects scaled min sizes; stack padding/gaps stay 1-3px.
+# Default: 0.0
+# Range: -0.5 ~ 0.5
+userUiScaleDelta = 0.0

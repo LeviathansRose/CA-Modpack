@@ -1,0 +1,6 @@
+#Enemies can drop coins when killed. (values: true, false)
+lootCoinFromEnemy = true
+#Coin drop chance from enemies.
+# Default: 0.05
+# Range: 0.0 ~ 1.0
+lootCoinDropChance = 0.05

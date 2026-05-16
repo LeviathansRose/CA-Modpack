@@ -1,0 +1,318 @@
+#Chunk Regeneration Settings
+[regen_settings]
+	# Factor impacting how likely a chunk is to be flagged for a scan of block changes. Bigger number is less scanning.
+	# Default: 7
+	# Range: 1 ~ 512
+	chunkScanFlaggingModulo = 7
+	# Restricts the chunk scanning to be limited by server TPS. If the TPS is below this value, the chunk scan won't happen.
+	# Default: 15.0
+	# Range: 1.0 ~ 20.0
+	skipScanBelowTPS = 15.0
+	# Number of ticks to wait before each chunk scan.
+	# Default: 100
+	# Range: > 1
+	ticksBetweenChunkScanBatch = 100
+	# Number of chunks to scan per batch. This is the highest impact setting of them all!
+	# Default: 3
+	# Range: > 1
+	maxChunkScansPerBatch = 3
+
+	[regen_settings."minecraft:overworld"]
+		# How many tick-based game days before unclaimed chunks in minecraft:overworld are eligible for regeneration
+		# Using /time will NOT impact this. '/chunklibrary age..' will.
+		# Default: 365
+		# Range: > 1
+		daysBetweenRegen = 365
+		# The cubic radius around a claimed chunk in minecraft:overworld where unclaimed chunks won't regenerate.
+		# Default: 3
+		# Range: 0 ~ 10
+		distanceFromClaim = 3
+		# The minimum +/- change in estimated air blocks for minecraft:overworld required for a chunk to be elligble for regeneration.
+		# Defaults are based on potential chunk changes during generation, such as water flowing from a spawned source or vertical plants growing. Less than one (< 1) to disable this feature.
+		# Default: 25
+		# Range: > -2147483648
+		airDeltaAllowed = 25
+		# The lower percent of the chunk to scan for changes. Note that most of a chunk is just  air on top, so this value may be deceptively low.
+		# Default: 0.5
+		# Range: 0.01 ~ 1.0
+		percentOfChunkToScan = 0.5
+		# Regenerated chunks in minecraft:overworld will not have minecraft:ore features.
+		oreDisabled = false
+		# Regenerated chunks in minecraft:overworld will have their ores generated from a random seed.
+		randomOreEnabled = true
+		# Regenerated chunks in minecraft:overworld will have their trees generated from a random seed.
+		randomTreeEnabled = true
+		# Regenerated chunks in minecraft:overworld will have their initial entities generated from a random seed.
+		# This will only change WHAT entity spawns, not WHERE the entity spawns.
+		# Ex: a chunk first spawns a cow at x,y,z and then a horse on regeneration.
+		randomMobEnabled = true
+
+	[regen_settings."minecraft:the_nether"]
+		# How many tick-based game days before unclaimed chunks in minecraft:the_nether are eligible for regeneration
+		# Using /time will NOT impact this. '/chunklibrary age..' will.
+		# Default: 30
+		# Range: > 1
+		daysBetweenRegen = 30
+		# The cubic radius around a claimed chunk in minecraft:the_nether where unclaimed chunks won't regenerate.
+		# Default: 1
+		# Range: 0 ~ 10
+		distanceFromClaim = 1
+		# The minimum +/- change in estimated air blocks for minecraft:the_nether required for a chunk to be elligble for regeneration.
+		# Defaults are based on potential chunk changes during generation, such as water flowing from a spawned source or vertical plants growing. Less than one (< 1) to disable this feature.
+		# Default: 50
+		# Range: > -2147483648
+		airDeltaAllowed = 50
+		# The lower percent of the chunk to scan for changes. Note that most of a chunk is just  air on top, so this value may be deceptively low.
+		# Default: 0.8
+		# Range: 0.01 ~ 1.0
+		percentOfChunkToScan = 0.8
+		# Regenerated chunks in minecraft:the_nether will not have minecraft:ore features.
+		oreDisabled = false
+		# Regenerated chunks in minecraft:the_nether will have their ores generated from a random seed.
+		randomOreEnabled = true
+		# Regenerated chunks in minecraft:the_nether will have their trees generated from a random seed.
+		randomTreeEnabled = true
+		# Regenerated chunks in minecraft:the_nether will have their initial entities generated from a random seed.
+		# This will only change WHAT entity spawns, not WHERE the entity spawns.
+		# Ex: a chunk first spawns a cow at x,y,z and then a horse on regeneration.
+		randomMobEnabled = true
+
+	[regen_settings."minecraft:the_end"]
+		# How many tick-based game days before unclaimed chunks in minecraft:the_end are eligible for regeneration
+		# Using /time will NOT impact this. '/chunklibrary age..' will.
+		# Default: 30
+		# Range: > 1
+		daysBetweenRegen = 30
+		# The cubic radius around a claimed chunk in minecraft:the_end where unclaimed chunks won't regenerate.
+		# Default: 0
+		# Range: 0 ~ 10
+		distanceFromClaim = 0
+		# The minimum +/- change in estimated air blocks for minecraft:the_end required for a chunk to be elligble for regeneration.
+		# Defaults are based on potential chunk changes during generation, such as water flowing from a spawned source or vertical plants growing. Less than one (< 1) to disable this feature.
+		# Default: 10
+		# Range: > -2147483648
+		airDeltaAllowed = 10
+		# The lower percent of the chunk to scan for changes. Note that most of a chunk is just  air on top, so this value may be deceptively low.
+		# Default: 1.0
+		# Range: 0.01 ~ 1.0
+		percentOfChunkToScan = 1.0
+		# Regenerated chunks in minecraft:the_end will not have minecraft:ore features.
+		oreDisabled = false
+		# Regenerated chunks in minecraft:the_end will have their ores generated from a random seed.
+		randomOreEnabled = true
+		# Regenerated chunks in minecraft:the_end will have their trees generated from a random seed.
+		randomTreeEnabled = true
+		# Regenerated chunks in minecraft:the_end will have their initial entities generated from a random seed.
+		# This will only change WHAT entity spawns, not WHERE the entity spawns.
+		# Ex: a chunk first spawns a cow at x,y,z and then a horse on regeneration.
+		randomMobEnabled = true
+
+	[regen_settings."allthemodium:mining"]
+		# How many tick-based game days before unclaimed chunks in allthemodium:mining are eligible for regeneration
+		# Using /time will NOT impact this. '/chunklibrary age..' will.
+		# Default: 7
+		# Range: > 1
+		daysBetweenRegen = 7
+		# The cubic radius around a claimed chunk in allthemodium:mining where unclaimed chunks won't regenerate.
+		# Default: 50
+		# Range: 0 ~ 10
+		distanceFromClaim = 10
+		# The minimum +/- change in estimated air blocks for allthemodium:mining required for a chunk to be elligble for regeneration.
+		# Defaults are based on potential chunk changes during generation, such as water flowing from a spawned source or vertical plants growing. Less than one (< 1) to disable this feature.
+		# Default: 0
+		# Range: > -2147483648
+		airDeltaAllowed = 0
+		# The lower percent of the chunk to scan for changes. Note that most of a chunk is just  air on top, so this value may be deceptively low.
+		# Default: 0.3
+		# Range: 0.01 ~ 1.0
+		percentOfChunkToScan = 0.3
+		# Regenerated chunks in allthemodium:mining will not have minecraft:ore features.
+		oreDisabled = false
+		# Regenerated chunks in allthemodium:mining will have their ores generated from a random seed.
+		randomOreEnabled = true
+		# Regenerated chunks in allthemodium:mining will have their trees generated from a random seed.
+		randomTreeEnabled = true
+		# Regenerated chunks in allthemodium:mining will have their initial entities generated from a random seed.
+		# This will only change WHAT entity spawns, not WHERE the entity spawns.
+		# Ex: a chunk first spawns a cow at x,y,z and then a horse on regeneration.
+		randomMobEnabled = true
+
+	[regen_settings."allthemodium:the_other"]
+		# How many tick-based game days before unclaimed chunks in allthemodium:the_other are eligible for regeneration
+		# Using /time will NOT impact this. '/chunklibrary age..' will.
+		# Default: 30
+		# Range: > 1
+		daysBetweenRegen = 30
+		# The cubic radius around a claimed chunk in allthemodium:the_other where unclaimed chunks won't regenerate.
+		# Default: 1
+		# Range: 0 ~ 10
+		distanceFromClaim = 1
+		# The minimum +/- change in estimated air blocks for allthemodium:the_other required for a chunk to be elligble for regeneration.
+		# Defaults are based on potential chunk changes during generation, such as water flowing from a spawned source or vertical plants growing. Less than one (< 1) to disable this feature.
+		# Default: 50
+		# Range: > -2147483648
+		airDeltaAllowed = 50
+		# The lower percent of the chunk to scan for changes. Note that most of a chunk is just  air on top, so this value may be deceptively low.
+		# Default: 0.8
+		# Range: 0.01 ~ 1.0
+		percentOfChunkToScan = 0.8
+		# Regenerated chunks in allthemodium:the_other will not have minecraft:ore features.
+		oreDisabled = false
+		# Regenerated chunks in allthemodium:the_other will have their ores generated from a random seed.
+		randomOreEnabled = true
+		# Regenerated chunks in allthemodium:the_other will have their trees generated from a random seed.
+		randomTreeEnabled = true
+		# Regenerated chunks in allthemodium:the_other will have their initial entities generated from a random seed.
+		# This will only change WHAT entity spawns, not WHERE the entity spawns.
+		# Ex: a chunk first spawns a cow at x,y,z and then a horse on regeneration.
+		randomMobEnabled = true
+
+	[regen_settings."allthemodium:the_beyond"]
+		# How many tick-based game days before unclaimed chunks in allthemodium:the_beyond are eligible for regeneration
+		# Using /time will NOT impact this. '/chunklibrary age..' will.
+		# Default: 365
+		# Range: > 1
+		daysBetweenRegen = 365
+		# The cubic radius around a claimed chunk in allthemodium:the_beyond where unclaimed chunks won't regenerate.
+		# Default: 5
+		# Range: 0 ~ 10
+		distanceFromClaim = 5
+		# The minimum +/- change in estimated air blocks for allthemodium:the_beyond required for a chunk to be elligble for regeneration.
+		# Defaults are based on potential chunk changes during generation, such as water flowing from a spawned source or vertical plants growing. Less than one (< 1) to disable this feature.
+		# Default: 5
+		# Range: > -2147483648
+		airDeltaAllowed = 5
+		# The lower percent of the chunk to scan for changes. Note that most of a chunk is just  air on top, so this value may be deceptively low.
+		# Default: 1.0
+		# Range: 0.01 ~ 1.0
+		percentOfChunkToScan = 1.0
+		# Regenerated chunks in allthemodium:the_beyond will not have minecraft:ore features.
+		oreDisabled = false
+		# Regenerated chunks in allthemodium:the_beyond will have their ores generated from a random seed.
+		randomOreEnabled = true
+		# Regenerated chunks in allthemodium:the_beyond will have their trees generated from a random seed.
+		randomTreeEnabled = true
+		# Regenerated chunks in allthemodium:the_beyond will have their initial entities generated from a random seed.
+		# This will only change WHAT entity spawns, not WHERE the entity spawns.
+		# Ex: a chunk first spawns a cow at x,y,z and then a horse on regeneration.
+		randomMobEnabled = true
+
+	[regen_settings."lostcities:lostcity"]
+		# How many tick-based game days before unclaimed chunks in lostcities:lostcity are eligible for regeneration
+		# Using /time will NOT impact this. '/chunklibrary age..' will.
+		# Default: 180
+		# Range: > 1
+		daysBetweenRegen = 180
+		# The cubic radius around a claimed chunk in lostcities:lostcity where unclaimed chunks won't regenerate.
+		# Default: 2
+		# Range: 0 ~ 10
+		distanceFromClaim = 2
+		# The minimum +/- change in estimated air blocks for lostcities:lostcity required for a chunk to be elligble for regeneration.
+		# Defaults are based on potential chunk changes during generation, such as water flowing from a spawned source or vertical plants growing. Less than one (< 1) to disable this feature.
+		# Default: 25
+		# Range: > -2147483648
+		airDeltaAllowed = 25
+		# The lower percent of the chunk to scan for changes. Note that most of a chunk is just  air on top, so this value may be deceptively low.
+		# Default: 0.5
+		# Range: 0.01 ~ 1.0
+		percentOfChunkToScan = 0.5
+		# Regenerated chunks in lostcities:lostcity will not have minecraft:ore features.
+		oreDisabled = false
+		# Regenerated chunks in lostcities:lostcity will have their ores generated from a random seed.
+		randomOreEnabled = true
+		# Regenerated chunks in lostcities:lostcity will have their trees generated from a random seed.
+		randomTreeEnabled = true
+		# Regenerated chunks in lostcities:lostcity will have their initial entities generated from a random seed.
+		# This will only change WHAT entity spawns, not WHERE the entity spawns.
+		# Ex: a chunk first spawns a cow at x,y,z and then a horse on regeneration.
+		randomMobEnabled = true
+
+	[regen_settings."twilightforest:twilight_forest"]
+		# How many tick-based game days before unclaimed chunks in twilightforest:twilight_forest are eligible for regeneration
+		# Using /time will NOT impact this. '/chunklibrary age..' will.
+		# Default: 180
+		# Range: > 1
+		daysBetweenRegen = 180
+		# The cubic radius around a claimed chunk in twilightforest:twilight_forest where unclaimed chunks won't regenerate.
+		# Default: 3
+		# Range: 0 ~ 10
+		distanceFromClaim = 3
+		# The minimum +/- change in estimated air blocks for twilightforest:twilight_forest required for a chunk to be elligble for regeneration.
+		# Defaults are based on potential chunk changes during generation, such as water flowing from a spawned source or vertical plants growing. Less than one (< 1) to disable this feature.
+		# Default: 25
+		# Range: > -2147483648
+		airDeltaAllowed = 25
+		# The lower percent of the chunk to scan for changes. Note that most of a chunk is just  air on top, so this value may be deceptively low.
+		# Default: 0.5
+		# Range: 0.01 ~ 1.0
+		percentOfChunkToScan = 0.5
+		# Regenerated chunks in twilightforest:twilight_forest will not have minecraft:ore features.
+		oreDisabled = false
+		# Regenerated chunks in twilightforest:twilight_forest will have their ores generated from a random seed.
+		randomOreEnabled = true
+		# Regenerated chunks in twilightforest:twilight_forest will have their trees generated from a random seed.
+		randomTreeEnabled = true
+		# Regenerated chunks in twilightforest:twilight_forest will have their initial entities generated from a random seed.
+		# This will only change WHAT entity spawns, not WHERE the entity spawns.
+		# Ex: a chunk first spawns a cow at x,y,z and then a horse on regeneration.
+		randomMobEnabled = true
+
+	[regen_settings."aether:the_aether"]
+		# How many tick-based game days before unclaimed chunks in aether:the_aether are eligible for regeneration
+		# Using /time will NOT impact this. '/chunklibrary age..' will.
+		# Default: 30
+		# Range: > 1
+		daysBetweenRegen = 30
+		# The cubic radius around a claimed chunk in aether:the_aether where unclaimed chunks won't regenerate.
+		# Default: 3
+		# Range: 0 ~ 10
+		distanceFromClaim = 3
+		# The minimum +/- change in estimated air blocks for aether:the_aether required for a chunk to be elligble for regeneration.
+		# Defaults are based on potential chunk changes during generation, such as water flowing from a spawned source or vertical plants growing. Less than one (< 1) to disable this feature.
+		# Default: 25
+		# Range: > -2147483648
+		airDeltaAllowed = 25
+		# The lower percent of the chunk to scan for changes. Note that most of a chunk is just  air on top, so this value may be deceptively low.
+		# Default: 1.0
+		# Range: 0.01 ~ 1.0
+		percentOfChunkToScan = 1.0
+		# Regenerated chunks in aether:the_aether will not have minecraft:ore features.
+		oreDisabled = false
+		# Regenerated chunks in aether:the_aether will have their ores generated from a random seed.
+		randomOreEnabled = true
+		# Regenerated chunks in aether:the_aether will have their trees generated from a random seed.
+		randomTreeEnabled = true
+		# Regenerated chunks in aether:the_aether will have their initial entities generated from a random seed.
+		# This will only change WHAT entity spawns, not WHERE the entity spawns.
+		# Ex: a chunk first spawns a cow at x,y,z and then a horse on regeneration.
+		randomMobEnabled = true
+
+	[regen_settings."the_bumblezone:the_bumblezone"]
+		# How many tick-based game days before unclaimed chunks in the_bumblezone:the_bumblezone are eligible for regeneration
+		# Using /time will NOT impact this. '/chunklibrary age..' will.
+		# Default: 30
+		# Range: > 1
+		daysBetweenRegen = 30
+		# The cubic radius around a claimed chunk in the_bumblezone:the_bumblezone where unclaimed chunks won't regenerate.
+		# Default: 2
+		# Range: 0 ~ 10
+		distanceFromClaim = 2
+		# The minimum +/- change in estimated air blocks for the_bumblezone:the_bumblezone required for a chunk to be elligble for regeneration.
+		# Defaults are based on potential chunk changes during generation, such as water flowing from a spawned source or vertical plants growing. Less than one (< 1) to disable this feature.
+		# Default: 25
+		# Range: > -2147483648
+		airDeltaAllowed = 25
+		# The lower percent of the chunk to scan for changes. Note that most of a chunk is just  air on top, so this value may be deceptively low.
+		# Default: 0.5
+		# Range: 0.01 ~ 1.0
+		percentOfChunkToScan = 0.5
+		# Regenerated chunks in the_bumblezone:the_bumblezone will not have minecraft:ore features.
+		oreDisabled = false
+		# Regenerated chunks in the_bumblezone:the_bumblezone will have their ores generated from a random seed.
+		randomOreEnabled = true
+		# Regenerated chunks in the_bumblezone:the_bumblezone will have their trees generated from a random seed.
+		randomTreeEnabled = true
+		# Regenerated chunks in the_bumblezone:the_bumblezone will have their initial entities generated from a random seed.
+		# This will only change WHAT entity spawns, not WHERE the entity spawns.
+		# Ex: a chunk first spawns a cow at x,y,z and then a horse on regeneration.
+		randomMobEnabled = true

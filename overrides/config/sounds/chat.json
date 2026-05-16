@@ -21,7 +21,8 @@
 		"soundEvent": "minecraft:block.note_block.chime"
 	},
 	"mentionKeywords": [
-		"@nuclearobelisk"
+		"@nuclearobelisk",
+		"@CaptainVianite"
 	],
 	"ignoreSystemChats": false,
 	"enableChatSoundCooldown": false,

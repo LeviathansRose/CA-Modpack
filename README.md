@@ -1,4 +1,4 @@
-# What is can I do in this pack?
+# What can I do in this pack?
 This pack is very much a kitchensink pack but there are some progression paths you can take. The biggest one is Iron's Spells and Spellbooks, this is where all the magical spells from the modpack come from, in this path you're focusing on finding structures, beating the 2 main bosses, and collecting magical artifacts to power yourself up. There's also create, building factories and most importantly building up airships to travel between the sky islands. Other than that there's also random stuff like getting into cooking, exploring, and generally messing with all the random mods in this pack. **Let me know if you have any suggestions on what to add!**
 # What are some the rules of this modpack?
 1. No permanent flying solutions beyond Create: Aeronautics. This means items such as Elytras are banned. This is done to incentivize people to actually build Airships. Temporary flight like Iron's Angel wings are fine as that can only go up to a maximum of a couple of minutes.
@@ -18,3 +18,15 @@ This pack is very much a kitchensink pack but there are some progression paths y
 1. Download the latest .mrpack file from the release tab here on github.
 2. In Prism Launcher right click your instance and click on Edit > Modrinth > Update From File. From here you can browse for downloaded .mrpack file and click ok!
 3. Boom, its updated!
+# Future Plans
+I want to add more to the "endgame" of the modpack. Things that are either really hard, like ridiculously hard bosses or repeatable goals to grind. Something to really form a gameplay loop that you can repeat.
+## Mods I'm considering for the future
+[L_Ender's Cataclysm](https://www.curseforge.com/minecraft/mc-mods/lendercataclysm)
+[Cataclysm: Spellbooks](https://www.curseforge.com/minecraft/mc-mods/cataclysm-spellbooks)
+[GTBC's Spellbooks - Iron's Spells Addon](https://www.curseforge.com/minecraft/mc-mods/gtbcs-spellbooks)
+[Enderman Overhaul](https://www.curseforge.com/minecraft/mc-mods/enderman-overhaul)
+[Creeper Overhaul](https://www.curseforge.com/minecraft/mc-mods/creeper-overhaul)
+[Born in Chaos](https://www.curseforge.com/minecraft/mc-mods/born-in-chaos)
+[Dragon Survival](https://www.curseforge.com/minecraft/mc-mods/dragons-survival)
+[Ice And Fire Community Edition](https://www.curseforge.com/minecraft/mc-mods/iceandfire-ce)
+[Vampirism - Become a vampire!](https://www.curseforge.com/minecraft/mc-mods/vampirism-become-a-vampire)

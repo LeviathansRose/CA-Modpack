@@ -14,7 +14,7 @@ This pack is very much a kitchensink pack but there are some progression paths y
 5. Boom, it's downloaded! Now just double click on the icon to play!
 # How to update the modpack
 1. Download the latest .zip (Not the Source Code zip file) file from the release tab here on github.
-2. In Prism Launcher right click your instance and click on Edit > Modrinth > Update From File. From here you can browse for downloaded .zip file and click ok!
+2. In Prism Launcher right click your instance and click on Edit > Curseforge > Update From File. From here you can browse for downloaded .zip file and click ok!
 3. Boom, its updated!
 # Future Plans
 I want to add more to the "endgame" of the modpack. Things that are either really hard, like ridiculously hard bosses or repeatable goals to grind. Something to really form a gameplay loop that you can repeat.

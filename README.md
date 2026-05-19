@@ -1,3 +1,13 @@
+# What is can I do in this pack?
+This pack is very much a kitchensink pack but there are some progression paths you can take. The biggest one is Iron's Spells and Spellbooks, this is where all the magical spells from the modpack come from, in this path you're focusing on finding structures, beating the 2 main bosses, and collecting magical artifacts to power yourself up. There's also create, building factories and most importantly building up airships to travel between the sky islands. Other than that there's also random stuff like getting into cooking, exploring, and generally messing with all the random mods in this pack. **Let me know if you have any suggestions on what to add!**
+# What are some the rules of this modpack?
+1. No permanent flying solutions beyond Create: Aeronautics. This means items such as Elytras are banned. This is done to incentivize people to actually build Airships. Temporary flight like Iron's Angel wings are fine as that can only go up to a maximum of a couple of minutes.
+2. No permanent teleportation items/devices. Temporary portals/teleportations between areas are fine. This is done for the same reason of the above rule.
+3. Don't try to grief people's bases or pvp on them.
+4. Don't steal other people's ships or grief them when in claimed territories.
+5. Don't steal items from people's bases.
+6. Generally don't be awful, like being rude or bullying people.
+7. The rules may be edited some more in the future.
 # How to install the modpack
 1. Download and setup [Prism Launcher](https://prismlauncher.org/), make sure to sign into your minecraft account on here.
 2. Allocate enough ram for the instance. This means in Prism Launcher go to settings > Java > and setting Maximum Memory Usage to 8064 MiB.

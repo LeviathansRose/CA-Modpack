@@ -45,6 +45,8 @@ Really cool concept, I'd like to make it an end game thing you could do but it t
 [Ice And Fire Community Edition](https://www.curseforge.com/minecraft/mc-mods/iceandfire-ce)
 This is most likely going to be added but the weapons and armor in this mod are way too powerful. I mainly just want the dragons and I'm currently looking for alternatives.
 
+[Ice and Fire: Spellbooks](https://www.curseforge.com/minecraft/mc-mods/ice-and-fire-spellbooks)
+
 [Vampirism - Become a vampire!](https://www.curseforge.com/minecraft/mc-mods/vampirism-become-a-vampire)
 Funny and cool mod to mess around with but it changes the world around the player. Feels less like an addition and more like something you base a whole modpack around.
 

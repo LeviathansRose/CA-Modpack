@@ -1,0 +1,11 @@
+{
+  "features": {
+    "enabled": [
+      "minecraft:bundle"
+    ]
+  },
+  "pack": {
+    "pack_format": 48,
+    "description": "Gives new players Isabel's Aeroscapes starter items."
+  }
+}

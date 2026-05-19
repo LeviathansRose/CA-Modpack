@@ -1,6 +1,6 @@
 {
   "config_version": "2.0.22",
-  "config_datetime": "2026-05-18_22-38-05",
+  "config_datetime": "2026-05-18_22-37-59",
   "general": {
     "disable_all_structures": false,
     "prevent_structure_overlap": true,
@@ -542,22 +542,17 @@
     {
       "name": "cataclysm:sunken_city",
       "is_disabled": false,
-      "whitelisted_biomes": [],
-      "blacklisted_biomes": [],
+      "whitelisted_biomes": [
+        "aeroscapes:deep_voidsea"
+      ],
+      "blacklisted_biomes": [
+        "minecraft:deep_ocean",
+        "minecraft:deep_lukewarm_ocean",
+        "minecraft:deep_cold_ocean",
+        "minecraft:deep_frozen_ocean"
+      ],
       "step": "surface_structures",
-      "terrain_adaptation": "none",
-      "override_global_flatness_check": false,
-      "enable_flatness_check": false,
-      "flatness_check_allow_non_solid_blocks": false,
-      "override_global_biome_check": false,
-      "enable_biome_check": false,
-      "biome_check_mode": "BLACKLIST",
-      "biome_check_blacklisted_biomes": [
-        "#minecraft:is_river",
-        "#c:is_river",
-        "#minecraft:is_ocean",
-        "#c:is_ocean"
-      ]
+      "terrain_adaptation": "none"
     },
     {
       "name": "ctov:large/village_beach",

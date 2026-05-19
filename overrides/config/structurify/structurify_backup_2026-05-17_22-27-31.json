@@ -1,6 +1,6 @@
 {
   "config_version": "2.0.22",
-  "config_datetime": "2026-05-18_22-38-05",
+  "config_datetime": "2026-05-17_22-22-56",
   "general": {
     "disable_all_structures": false,
     "prevent_structure_overlap": true,
@@ -90,8 +90,8 @@
         "terralith:wintry_forest",
         "terralith:wintry_lowlands"
       ],
-      "step": "top_layer_modification",
-      "terrain_adaptation": "none"
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_thin"
     },
     {
       "name": "minecraft:shipwreck",
@@ -518,46 +518,6 @@
       "blacklisted_biomes": [],
       "step": "top_layer_modification",
       "terrain_adaptation": "none"
-    },
-    {
-      "name": "cataclysm:acropolis",
-      "is_disabled": false,
-      "whitelisted_biomes": [],
-      "blacklisted_biomes": [],
-      "step": "surface_structures",
-      "terrain_adaptation": "none",
-      "override_global_flatness_check": false,
-      "enable_flatness_check": false,
-      "flatness_check_allow_non_solid_blocks": false,
-      "override_global_biome_check": false,
-      "enable_biome_check": false,
-      "biome_check_mode": "BLACKLIST",
-      "biome_check_blacklisted_biomes": [
-        "#minecraft:is_river",
-        "#c:is_river",
-        "#minecraft:is_ocean",
-        "#c:is_ocean"
-      ]
-    },
-    {
-      "name": "cataclysm:sunken_city",
-      "is_disabled": false,
-      "whitelisted_biomes": [],
-      "blacklisted_biomes": [],
-      "step": "surface_structures",
-      "terrain_adaptation": "none",
-      "override_global_flatness_check": false,
-      "enable_flatness_check": false,
-      "flatness_check_allow_non_solid_blocks": false,
-      "override_global_biome_check": false,
-      "enable_biome_check": false,
-      "biome_check_mode": "BLACKLIST",
-      "biome_check_blacklisted_biomes": [
-        "#minecraft:is_river",
-        "#c:is_river",
-        "#minecraft:is_ocean",
-        "#c:is_ocean"
-      ]
     },
     {
       "name": "ctov:large/village_beach",

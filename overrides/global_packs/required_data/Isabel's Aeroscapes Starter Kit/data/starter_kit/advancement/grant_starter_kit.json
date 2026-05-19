@@ -1,0 +1,10 @@
+{
+  "criteria": {
+    "joined_world": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "rewards": {
+    "function": "starter_kit:give_starter_kit"
+  }
+}

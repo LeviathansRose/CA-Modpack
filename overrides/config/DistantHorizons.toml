@@ -477,7 +477,7 @@ _version = 4
 				#  overhangs or walls for floating objects. 
 				#  Tweaking the caveCullingHeight, can resolve some 
 				#  of those issues.
-				enableCaveCulling = true
+				enableCaveCulling = false
 				#
 				# Identical to the other frustum culling option
 				# only used when a shader mod is present using the DH API

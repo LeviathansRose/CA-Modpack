@@ -53,3 +53,7 @@ Funny and cool mod to mess around with but it changes the world around the playe
 [Dark Doppelganger : Iron's Spells and Spellbooks Addon](https://www.curseforge.com/minecraft/mc-mods/dark-doppelganger)
 
 [Bosses of Mass Destruction](https://www.curseforge.com/minecraft/mc-mods/bosses-of-mass-destruction)
+
+[Mowzie's Mobs](https://www.curseforge.com/minecraft/mc-mods/mowzies-mobs)
+[
+GTBC's Geomancy Plus - Iron's Spells Addon](https://www.curseforge.com/minecraft/mc-mods/gtbcs-geomancy-plus)

@@ -6,8 +6,9 @@ This pack is very much a kitchensink pack but there are some progression paths y
 3. Don't try to grief people's bases or pvp on them.
 4. Don't steal other people's ships or grief them when in claimed territories.
 5. Don't steal items from people's bases.
-6. Generally don't be awful, like being rude or bullying people.
-7. The rules may be edited some more in the future.
+6. Don't PvP unless both parties agree to it.
+7. Generally don't be awful, like being rude or bullying people.
+8. The rules may be edited some more in the future.
 # How to install the modpack
 1. Download and setup [Prism Launcher](https://prismlauncher.org/), make sure to sign into your minecraft account on here.
 2. Allocate enough ram for the instance. This means in Prism Launcher go to settings > Java > and setting Maximum Memory Usage to 8064 MiB.

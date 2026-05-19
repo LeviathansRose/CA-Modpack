@@ -22,11 +22,19 @@ This pack is very much a kitchensink pack but there are some progression paths y
 I want to add more to the "endgame" of the modpack. Things that are either really hard, like ridiculously hard bosses or repeatable goals to grind. Something to really form a gameplay loop that you can repeat.
 ## Mods I'm considering for the future
 [L_Ender's Cataclysm](https://www.curseforge.com/minecraft/mc-mods/lendercataclysm)
+
 [Cataclysm: Spellbooks](https://www.curseforge.com/minecraft/mc-mods/cataclysm-spellbooks)
+
 [GTBC's Spellbooks - Iron's Spells Addon](https://www.curseforge.com/minecraft/mc-mods/gtbcs-spellbooks)
+
 [Enderman Overhaul](https://www.curseforge.com/minecraft/mc-mods/enderman-overhaul)
+
 [Creeper Overhaul](https://www.curseforge.com/minecraft/mc-mods/creeper-overhaul)
+
 [Born in Chaos](https://www.curseforge.com/minecraft/mc-mods/born-in-chaos)
+
 [Dragon Survival](https://www.curseforge.com/minecraft/mc-mods/dragons-survival)
+
 [Ice And Fire Community Edition](https://www.curseforge.com/minecraft/mc-mods/iceandfire-ce)
+
 [Vampirism - Become a vampire!](https://www.curseforge.com/minecraft/mc-mods/vampirism-become-a-vampire)

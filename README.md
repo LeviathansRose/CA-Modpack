@@ -3,12 +3,9 @@ This pack is very much a kitchensink pack but there are some progression paths y
 # What are some the rules of this modpack?
 1. No permanent flying solutions beyond Create: Aeronautics. This means items such as Elytras are banned. This is done to incentivize people to actually build Airships. Temporary flight like Iron's Angel wings are fine as that can only go up to a maximum of a couple of minutes.
 2. No permanent teleportation items/devices. Temporary portals/teleportations between areas are fine. This is done for the same reason of the above rule.
-3. Don't try to grief people's bases or pvp on them.
-4. Don't steal other people's ships or grief them when in claimed territories.
-5. Don't steal items from people's bases.
-6. Don't PvP unless both parties agree to it.
-7. Generally don't be awful, like being rude or bullying people.
-8. The rules may be edited some more in the future.
+3. Don't PvP, grief, rob, etc unless both parties are willing participants.
+4. Don't steal people's airships.
+5. The rules may be edited some more in the future.
 # How to install the modpack
 1. Download and setup [Prism Launcher](https://prismlauncher.org/), make sure to sign into your minecraft account on here.
 2. Allocate enough ram for the instance. This means in Prism Launcher go to settings > Java > and setting Maximum Memory Usage to 8064 MiB.
@@ -47,14 +44,19 @@ Really cool concept, I'd like to make it an end game thing you could do but it t
 This is most likely going to be added but the weapons and armor in this mod are way too powerful. I mainly just want the dragons and I'm currently looking for alternatives.
 
 [Ice and Fire: Spellbooks](https://www.curseforge.com/minecraft/mc-mods/ice-and-fire-spellbooks)
+This is to connect Ice and Fire to Iron's spellbooks.
 
 [Vampirism - Become a vampire!](https://www.curseforge.com/minecraft/mc-mods/vampirism-become-a-vampire)
 Funny and cool mod to mess around with but it changes the world around the player. Feels less like an addition and more like something you base a whole modpack around.
 
 [Dark Doppelganger : Iron's Spells and Spellbooks Addon](https://www.curseforge.com/minecraft/mc-mods/dark-doppelganger)
+Potentially an interesting boss fight.
 
 [Bosses of Mass Destruction](https://www.curseforge.com/minecraft/mc-mods/bosses-of-mass-destruction)
+Very cool boss fights however not a lot of reward. May still add them for fun.
 
 [Mowzie's Mobs](https://www.curseforge.com/minecraft/mc-mods/mowzies-mobs)
-[
-GTBC's Geomancy Plus - Iron's Spells Addon](https://www.curseforge.com/minecraft/mc-mods/gtbcs-geomancy-plus)
+Cool mobs, however some of them are a little janky like Tongbi.
+
+[GTBC's Geomancy Plus - Iron's Spells Addon](https://www.curseforge.com/minecraft/mc-mods/gtbcs-geomancy-plus)
+This connects to Mowzie's mobs if we add them.

@@ -22,19 +22,20 @@ This pack is very much a kitchensink pack but there are some progression paths y
 I want to add more to the "endgame" of the modpack. Things that are either really hard, like ridiculously hard bosses or repeatable goals to grind. Something to really form a gameplay loop that you can repeat.
 ## Mods I'm considering for the future
 [L_Ender's Cataclysm](https://www.curseforge.com/minecraft/mc-mods/lendercataclysm)
-
+This does a really good job at adding hard bosses. The content feels powerful but not too crazy OP. The main problem is World Gen. The bosses in this mod have their own dungeons and some of them are water-based... Which doesn't exist very much in this pack. This might cause a need for seperate dimensions? Or seperate boss summoning?
 [Cataclysm: Spellbooks](https://www.curseforge.com/minecraft/mc-mods/cataclysm-spellbooks)
-
+The bosses from Cataclysm don't do much for the progression of our pack so this gives a reason to actually destroy the bosses.
 [GTBC's Spellbooks - Iron's Spells Addon](https://www.curseforge.com/minecraft/mc-mods/gtbcs-spellbooks)
-
+Just some more cool spells. I haven't looked them over in detail but I want to avoid adding anything unneccesary or something we already have. In this case it might contain spells that are repetitive just differently themed.
 [Enderman Overhaul](https://www.curseforge.com/minecraft/mc-mods/enderman-overhaul)
-
+Just flavor, for mobs. Worried it might be too much.
 [Creeper Overhaul](https://www.curseforge.com/minecraft/mc-mods/creeper-overhaul)
-
+Just flavor, for mobs. Worried it might be too much.
 [Born in Chaos](https://www.curseforge.com/minecraft/mc-mods/born-in-chaos)
-
+Cool bosses and mobs but its pretty intense difficulty for people starting out and it doesn't connect to any of the other mods really well.
 [Dragon Survival](https://www.curseforge.com/minecraft/mc-mods/dragons-survival)
-
+Really cool concept, I'd like to make it an end game thing you could do but it totally defeats the point of having an airship.
 [Ice And Fire Community Edition](https://www.curseforge.com/minecraft/mc-mods/iceandfire-ce)
-
+This is most likely going to be added but the weapons and armor in this mod are way too powerful. I mainly just want the dragons and I'm currently looking for alternatives.
 [Vampirism - Become a vampire!](https://www.curseforge.com/minecraft/mc-mods/vampirism-become-a-vampire)
+Funny and cool mod to mess around with but it changes the world around the player. Feels less like an addition and more like something you base a whole modpack around.

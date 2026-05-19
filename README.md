@@ -47,3 +47,7 @@ This is most likely going to be added but the weapons and armor in this mod are 
 
 [Vampirism - Become a vampire!](https://www.curseforge.com/minecraft/mc-mods/vampirism-become-a-vampire)
 Funny and cool mod to mess around with but it changes the world around the player. Feels less like an addition and more like something you base a whole modpack around.
+
+[Dark Doppelganger : Iron's Spells and Spellbooks Addon](https://www.curseforge.com/minecraft/mc-mods/dark-doppelganger)
+
+[Bosses of Mass Destruction](https://www.curseforge.com/minecraft/mc-mods/bosses-of-mass-destruction)

@@ -17,6 +17,10 @@
   "showEmiChatMessages": false,
   "reloadAfterRemoval": false,
   "blacklistedItems": [
+    "minecraft:elytra",
+    "cataclysm_spellbooks:excelsius_power_chestplate",
+    "cataclysm_spellbooks:excelsius_resist_chestplate",
+    "cataclysm_spellbooks:excelsius_speed_chestplate",
     "vc_gliders:paraglider_iron",
     "vc_gliders:paraglider_gold",
     "vc_gliders:paraglider_diamond",

@@ -21,4 +21,4 @@ log_pack_ids = false
 [datapacks]
 	required = ["datapacks/", "resourcepacks/", "global_packs/required_data/"]
 	optional = ["global_packs/optional_data/"]
-	enable_builtin = []
+	enable_builtin = ["mod/cataclysm_dimension:packs/not_keep_original"]

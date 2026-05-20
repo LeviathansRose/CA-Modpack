@@ -1,6 +1,6 @@
 {
   "config_version": "2.0.22",
-  "config_datetime": "2026-05-20_08-21-38",
+  "config_datetime": "2026-05-20_08-21-24",
   "general": {
     "disable_all_structures": false,
     "prevent_structure_overlap": true,
@@ -647,15 +647,8 @@
     {
       "name": "cataclysm:sunken_city",
       "is_disabled": false,
-      "whitelisted_biomes": [
-        "cataclysm_dimension:deep_ocean"
-      ],
-      "blacklisted_biomes": [
-        "minecraft:deep_ocean",
-        "minecraft:deep_lukewarm_ocean",
-        "minecraft:deep_cold_ocean",
-        "minecraft:deep_frozen_ocean"
-      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [],
       "step": "surface_structures",
       "terrain_adaptation": "none",
       "override_global_flatness_check": false,

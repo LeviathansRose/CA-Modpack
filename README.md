@@ -53,3 +53,6 @@ This is to connect Ice and Fire to Iron's spellbooks.
 
 [Vampirism - Become a vampire!](https://www.curseforge.com/minecraft/mc-mods/vampirism-become-a-vampire)
 Funny and cool mod to mess around with but it changes the world around the player. Feels less like an addition and more like something you base a whole modpack around.
+
+[DimensionalDoors](https://www.curseforge.com/minecraft/mc-mods/dimensionaldoors)
+Very cool mod, I love the idea of randomized dungeons and stuff especially if you can just find them. However, it really goes into the whole portals things and teleportation and stuff. 

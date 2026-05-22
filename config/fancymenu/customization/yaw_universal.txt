@@ -3,14 +3,14 @@ type = fancymenu_layout
 layout-meta {
   identifier = %fancymenu:universal_layout%
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1777758585800
+  last_edited_time = 1779398014471
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
   universal_layout_blacklist = pause_screen;
-  [loading_requirement_container_meta:4c5ed363-7beb-40ce-999d-5ce9b72b3ea9-1777758571167] = [groups:][instances:]
+  [loading_requirement_container_meta:4b75747c-99e5-42d7-ba14-280a06eff5c9-1779397983160] = [groups:][instances:]
 }
 
 menu_background {
@@ -67,7 +67,8 @@ element {
   stretch_y = false
   stay_on_screen = true
   element_loading_requirement_container_identifier = 5de5d3f2-14f4-40d4-ae87-99e0fea50a43-1719384331011
-  [loading_requirement_container_meta:5de5d3f2-14f4-40d4-ae87-99e0fea50a43-1719384331011] = [groups:][instances:]
+  [loading_requirement_container_meta:5de5d3f2-14f4-40d4-ae87-99e0fea50a43-1719384331011] = [groups:][instances:a9697a8f-0e35-4929-82d9-46aba9ec2e39-1779397408529;]
+  [loading_requirement:fancymenu_visibility_requirement_is_variable_value][requirement_mode:if][req_id:a9697a8f-0e35-4929-82d9-46aba9ec2e39-1779397408529] = menu_music_toggle:true
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false

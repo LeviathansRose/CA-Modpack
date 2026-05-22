@@ -1,0 +1,28 @@
+{
+	"replace": false,
+	"values": [
+		"natures_spirit:arid_highlands",
+		"natures_spirit:carnation_fields",
+		"natures_spirit:cypress_fields",
+		"natures_spirit:floral_ridges",
+		"natures_spirit:flowering_shrubland",
+		"natures_spirit:heather_fields",
+		"natures_spirit:lavender_fields",
+		"natures_spirit:marigold_meadows",
+		"natures_spirit:prairie",
+		"natures_spirit:shrubby_highlands",
+		"natures_spirit:shrubland",
+
+		"terralith:blooming_plateau",
+		"terralith:blooming_valley",
+		"terralith:granite_cliffs",
+		"terralith:gravel_beach",
+		"terralith:gravel_desert",
+		"terralith:highlands",
+		"terralith:lavender_valley",
+		"terralith:shrubland",
+		"terralith:steppe",
+		"terralith:stony_spires",
+		"terralith:valley_clearing"
+	]
+}

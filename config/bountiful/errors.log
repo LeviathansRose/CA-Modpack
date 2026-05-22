@@ -17,3 +17,27 @@ WRN: Pool 'chef_objs' has been loaded, but is not attached to any existing data!
 * Did you mean to use the pool name 'fletcher_objs' instead of 'chef_objs'?
 * Otherwise, please add 'chef_objs' to a Decree.
 * NOTE: This data will not show up in game until one of the above fixes is made.
+WRN: Bountiful reward pool entry is not valid!: _metal_objs.galo_silver_ingot
+WRN: * entry failed type validation: (_metal_objs.galo_silver_ingot - galosphere:silver_ingot) details: {
+    "type": "minecraft:item",
+    "rarity": "UNCOMMON",
+    "content": "galosphere:silver_ingot",
+    "unitWorth": 1500.0,
+    "weightMult": 0.0625,
+    "amount": {
+        "min": 2,
+        "max": 16
+    }
+}
+WRN: Bountiful reward pool entry is not valid!: _metal_objs.galo_silver_raw
+WRN: * entry failed type validation: (_metal_objs.galo_silver_raw - galosphere:raw_silver) details: {
+    "type": "minecraft:item",
+    "rarity": "UNCOMMON",
+    "content": "galosphere:raw_silver",
+    "unitWorth": 1450.0,
+    "weightMult": 0.0625,
+    "amount": {
+        "min": 2,
+        "max": 10
+    }
+}

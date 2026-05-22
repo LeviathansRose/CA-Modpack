@@ -1,0 +1,14 @@
+# Ignore everything by default.
+/*
+
+# Keep this file.
+!.gitignore
+
+# Whitelisted instance content.
+!config/
+!data/
+!fancymenu_data/
+!global_packs/
+!kubejs/
+!local/
+!icon.png

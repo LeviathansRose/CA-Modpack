@@ -55,4 +55,7 @@ This is to connect Ice and Fire to Iron's spellbooks.
 Funny and cool mod to mess around with but it changes the world around the player. Feels less like an addition and more like something you base a whole modpack around.
 
 [DimensionalDoors](https://www.curseforge.com/minecraft/mc-mods/dimensionaldoors)
-Very cool mod, I love the idea of randomized dungeons and stuff especially if you can just find them. However, it really goes into the whole portals things and teleportation and stuff. 
+Very cool mod, I love the idea of randomized dungeons and stuff especially if you can just find them. However, it really goes into the whole portals things and teleportation and stuff.
+
+[Truly Modular: Arsenal](https://www.curseforge.com/minecraft/mc-mods/truly-modular-arsenal)
+Would be nice to have modular tools but we basically only have the vanilla materials, not a lot of mods that add their own tools. Moreover, its great that it is compatible with Better Combat, however, that makes it really annoying to use any tools you craft.

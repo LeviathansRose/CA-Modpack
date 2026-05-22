@@ -1,0 +1,24 @@
+{
+  "type": "lithostitched:delegating",
+  "delegate": {
+  "type": "bosses_of_mass_destruction:void_blossom",
+
+  "step": "surface_structures",
+  "biomes": "#bosses_of_mass_destruction:has_structure/void_blossom",
+  
+  "spawn_overrides": {
+    "monster" : {
+      "bounding_box": "full",
+      "spawns": []
+    }
+  }
+},
+  "spawn_condition": {
+    "type": "lithostitched:height_filter",
+    "range_type": "absolute",
+    "permitted_range": {
+      "min_inclusive": -48,
+      "max_inclusive": 256
+    }
+  }
+}

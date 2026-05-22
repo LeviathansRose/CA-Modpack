@@ -90,7 +90,6 @@
         "terralith:wintry_forest",
         "terralith:wintry_lowlands"
       ],
-      "step": "top_layer_modification",
       "step": "surface_structures",
       "terrain_adaptation": "beard_thin"
     },

@@ -91,7 +91,8 @@
         "terralith:wintry_lowlands"
       ],
       "step": "top_layer_modification",
-      "terrain_adaptation": "none"
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_thin"
     },
     {
       "name": "minecraft:shipwreck",

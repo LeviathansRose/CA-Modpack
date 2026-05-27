@@ -59,3 +59,6 @@ Very cool mod, I love the idea of randomized dungeons and stuff especially if yo
 
 [Truly Modular: Arsenal](https://www.curseforge.com/minecraft/mc-mods/truly-modular-arsenal)
 Would be nice to have modular tools but we basically only have the vanilla materials, not a lot of mods that add their own tools. Moreover, its great that it is compatible with Better Combat, however, that makes it really annoying to use any tools you craft.
+
+[Legendary Gemstones](https://www.curseforge.com/minecraft/mc-mods/legendary-gemstones)
+Adds a lot of really cool effects and could probably stack onto Iron's Jewelery since this isn't a curios mod but a gem-socketing mod. However, may be unbalanced and currently has no way to edit it. However, in the future they'll allow people to edit it with a datapack.

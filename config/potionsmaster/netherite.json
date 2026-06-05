@@ -1,0 +1,8 @@
+{
+    "entryname": "netherite",
+    "oretag": "c:ores/ancient_debris",
+    "color": -23296,
+    "drawing": false,
+    "order": 0,
+    "recipeItem": "minecraft:netherite_scrap"
+}

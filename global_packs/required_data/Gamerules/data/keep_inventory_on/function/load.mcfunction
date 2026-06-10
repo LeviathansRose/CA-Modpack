@@ -1,0 +1,2 @@
+gamerule keepInventory true
+gamerule playersSleepingPercentage 10

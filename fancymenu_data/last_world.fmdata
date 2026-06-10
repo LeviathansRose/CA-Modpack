@@ -1,7 +1,0 @@
-type = last_world
-
-last_world {
-  is_server = false
-  world = C:/Users/Vianite/AppData/Roaming/PrismLauncher/instances/Isabel's Aeroscapes [for Create Aeronautics]/minecraft/saves/New World
-}
-

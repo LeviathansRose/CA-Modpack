@@ -6,8 +6,10 @@
 
 # Whitelisted instance content.
 !config/
+/config/jei/world/
 !data/
 !fancymenu_data/
+/fancymenu_data/last_world.fmdata
 !global_packs/
 !kubejs/
 !local/

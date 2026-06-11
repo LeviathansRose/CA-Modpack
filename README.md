@@ -62,3 +62,6 @@ Would be nice to have modular tools but we basically only have the vanilla mater
 
 [Legendary Gemstones](https://www.curseforge.com/minecraft/mc-mods/legendary-gemstones)
 Adds a lot of really cool effects and could probably stack onto Iron's Jewelery since this isn't a curios mod but a gem-socketing mod. However, may be unbalanced and currently has no way to edit it. However, in the future they'll allow people to edit it with a datapack.
+
+[Malum](https://www.curseforge.com/minecraft/mc-mods/malum)
+Looks like it adds some interesting AOE effects and modifiers. I've heard its centered around combat with a scythe and adjusting the stats related to the scythe. Cool, but doesn't integrate well with Iron's Spells. Moreover, even if it did, not sure there is much of a need for a hyper-specific scythe only playstyle. I saw that they may be adding more stuff in the future so I'll keep my eyes peeled on it.

@@ -24,10 +24,9 @@
       "name": "minecraft:ancient_city",
       "is_disabled": false,
       "whitelisted_biomes": [
-        "#aeroscapes:modifiers/presets/cave"
+        "minecraft:deep_dark"
       ],
       "blacklisted_biomes": [
-        "minecraft:deep_dark",
         "terralith:cave/frostfire_caves"
       ],
       "step": "underground_decoration",

@@ -10,7 +10,7 @@ const CATACLYSM_DIMENSION_EYE_LOOT = [
 ]
 
 const OMINOUS_VAULT_REWARD_TABLE = 'minecraft:chests/trial_chambers/reward_ominous'
-const OMINOUS_VAULT_EYE_CHANCE = 0.15
+const OMINOUS_VAULT_EYE_CHANCE = 1
 
 LootJS.modifiers(event => {
   event.addTableModifier(OMINOUS_VAULT_REWARD_TABLE)

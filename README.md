@@ -1,3 +1,5 @@
+# Archived on 6/12/26
+The server this modpack was centered around reached it's conclusion so it will no longer be maintained here on GitHub.
 # What can I do in this pack?
 This pack has 2 main progression paths, Create and Iron's Spells and Spellbooks. With Create you'll be focusing on automation and building factories until you can start making your own airships and planes. With Iron's Spells and Spellbooks you'll be focusing on exploring the world, fighting bosses, and leveling up spells.
 ## Tips/Things to check out
